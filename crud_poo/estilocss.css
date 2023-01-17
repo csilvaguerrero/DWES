@@ -1,0 +1,90 @@
+
+/*Cristian Silva Guerrero*/
+*{
+	
+	padding: 0;
+	margin: 0;
+	font-family: Verdana;
+	
+}
+
+
+div#divFormulario form{
+	
+	
+	margin: auto;
+	margin-top: 150px;
+	width: 500px;
+	height: 350px;
+	border-radius: 5px;
+	border: 3px solid cyan;
+	box-shadow: 5px 5px 10px gray;
+	background-color: white;
+}
+
+form#formulario h2{
+	
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+	
+}
+
+form#formulario #botonEnviar{
+	
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+	width: 200px;
+	height: 50px;
+	color: white;
+	background-color: black;
+	
+}
+
+
+
+form#formulario #cajaTexto{
+	
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+	width: 200px;
+	height: 25px;
+	border: 0;
+	border-bottom: 1px solid black;
+	padding-left: 10px;
+	
+}
+
+div#divTabla #tabla{
+	
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: auto;
+	width: 400px;
+	margin-top: 50px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px gray;
+	
+	
+}
+
+table#tabla td, tr, th{
+	
+	border: 1px solid black;
+	text-align: center;
+	
+}
+
+table#tabla thead{
+	
+	background-color: cyan;
+	
+}
+
+
+
+
+
+
