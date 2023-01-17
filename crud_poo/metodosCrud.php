@@ -2,11 +2,13 @@
 
     class Metodos{
 
-        public function consultar($sql){
+        public function consultar(){
 
             $conectar = new Conectar();//Instanciamos la clase de la conexión para poder utilizar su método
             $conexion = $conectar->conexion();//Ejecutamos el método de la clase Conectar y realizamos la conexión.
 
+            $sql = "SELECT * FROM Categorias";
+            
             $resultado = mysqli_query($conexion, $sql);//Ejecutamos el query
 
             return $resultado;
@@ -36,7 +38,7 @@
             return $resultado;
         }
 
-        public function consultarFila($id){
+        public function consultarFila($id){//Este método es utilizado para sacar el nombre de la categoría a modificar.
 
             $conectar = new Conectar();//Instanciamos la clase de la conexión para poder utilizar su método
             $conexion = $conectar->conexion();//Ejecutamos el método de la clase Conectar y realizamos la conexión.

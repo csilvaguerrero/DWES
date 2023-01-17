@@ -39,16 +39,15 @@
                         <?php
                             $objeto = new Metodos();//Instanciamos la clase que contiene el método para consultar datos
 
-                            $sql = "SELECT * FROM Categorias";//Creamos el script a ejecutar
-                            $datos = $objeto->consultar($sql);//Obtenemos el resultado de ejecutar el método consultar de la clase Metodos.
+                            $datos = $objeto->consultar();//Obtenemos el resultado de ejecutar el método consultar de la clase Metodos.
 
-                            while($resultado = $datos->fetch_array(MYSQLI_ASSOC)){
+                            while($mostrar = $datos->fetch_array(MYSQLI_ASSOC)){
                          ?>
                          <tr>
-								<td><?php echo $resultado['id']; ?></td>
-								<td><?php echo $resultado['nombre']; ?></td>
-								<td><a href="./procesos/borrar.php?id=<?php echo $resultado['id']; ?>"><img src="borrar.svg"/></a></td>
-								<td><a href="./procesos/modificar.php?id=<?php echo $resultado['id']; ?>"><img src="editar.svg"/></a></td>
+								<td><?php echo $mostrar['id']; ?></td>
+								<td><?php echo $mostrar['nombre']; ?></td>
+								<td><a href="./procesos/borrar.php?id=<?php echo $mostrar['id']; ?>"><img src="borrar.svg"/></a></td>
+								<td><a href="./procesos/modificar.php?id=<?php echo $mostrar['id']; ?>"><img src="editar.svg"/></a></td>
 							</tr>
 						<?php } ?>
 				</tbody>
