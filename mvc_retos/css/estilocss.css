@@ -1,0 +1,423 @@
+
+/*Cristian Silva Guerrero*/
+*{
+	
+	padding: 0;
+	margin: 0;
+	font-family: Verdana;
+	text-decoration: none;
+}
+
+
+body{
+
+	background-color: rgba(0, 255, 255, 0.226);
+
+}
+
+header#headerIndex{
+
+	height: 60px;
+	width: 100%;
+	background-color: aqua;
+	padding-top: 27px;
+	text-align: center;
+
+}
+
+div#divNavegacion{
+
+	height: 40px;
+	display: flex;
+	background-color: rgb(5, 97, 97);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.13);
+	
+}
+
+a.enlaceNavegacion{
+
+	text-align: center;
+	margin: auto;
+	width: 200px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	color: white;
+
+}
+
+a.enlaceNavegacion:hover{
+
+	transition: 1s;
+	background-color: rgb(20, 79, 97);
+	width: 220px;
+	font-size: 20px;
+
+}
+
+span#tituloHeader{
+
+	margin: auto;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+
+
+div#divFormulario form{
+		
+	margin: auto;
+	margin-top: 50px;
+	width: 500px;
+	height: auto;
+	padding: 20px;
+	border-radius: 5px;
+	border: 3px solid cyan;
+	box-shadow: 5px 5px 10px gray;
+	background-color: white;
+}
+
+form#formulario h2{
+	
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	
+}
+
+form#formulario #botonEnviar{
+	
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+	width: 200px;
+	height: 50px;
+	color: white;
+	background-color: black;
+	
+}
+
+
+
+form#formulario #cajaTexto{
+	
+	display: block;
+	margin: auto;
+	/* margin-top: 100px; */
+	width: 200px;
+	height: 25px;
+	border: 0;
+	border-bottom: 1px solid black;
+	padding-left: 10px;
+	
+}
+
+div#divTabla #tabla{
+	
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: auto;
+	width: 400px;
+	margin-top: 50px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px gray;
+	background-color: white;
+	
+	
+}
+
+table#tabla td, tr, th{
+	
+	border: 1px solid black;
+	text-align: center;
+	
+}
+
+table#tabla thead{
+	
+	background-color: cyan;
+	
+}
+
+
+div#divBorrar{
+
+	background-color: rgb(255, 255, 255);
+	border: 2px solid cyan;
+	margin: auto;
+	margin-top: 30px;
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	
+
+}
+
+
+a.botones{
+
+	margin: auto;
+	margin-top: 40px;
+	width: 150px;
+	height: 40px;
+	background-color: white;
+	border-radius: 5px;
+	border: 4px solid cyan;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 1s;
+
+}
+
+
+a.botones:hover{
+
+	transition: 1s;
+	width: 180px;
+	height: 50px;
+	background-color: cyan;
+	color: white;
+	font-size: 20px;
+}
+
+
+a.btnBorrado{
+
+	
+	background-color: cyan;
+	border-radius: 5px;
+	height: 40px;
+	font-size: 20px;
+	color: black;
+	transition: 1s;
+}
+
+a#btnCancelar:hover{
+
+	transition: 1s;
+	background-color: red;
+	color: white;
+
+}
+
+a#btnBorrar:hover{
+
+	transition: 1s;
+	background-color: green;
+	color: white;
+
+}
+
+h2.noCategorias{
+
+	margin-top: 30px;
+	text-align: center;
+
+}
+
+a.btnVolver{
+
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 40px;
+	background-color: cyan;
+	margin: auto;
+	color:black;
+	margin-top: 60px;
+	transition: 1s;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+
+a.btnVolver:hover{
+
+	transition: 1s;
+	width: 130px;
+	height: 60px;
+	color: white;
+	font-size: 25px;
+}
+
+
+label.labelFecha{
+
+	margin-top: 30px;
+	text-align: center;
+	display: block;
+	
+}
+
+input.inputFecha{
+
+	display: block;
+	margin-top: 30px;
+
+}
+
+select.selectFormulario{
+
+	display: block;
+	margin: auto;
+	width: 200px;
+
+}
+
+textarea#descripcionReto{
+
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+}
+
+input#buscadorReto{
+
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	width: 300px;
+	height: 35px;
+	padding-left: 15px;
+
+
+}
+
+select#buscarCategoria{
+
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+}
+
+img#lupa{
+
+	width: 30px;
+	height: auto;
+
+}
+
+h2.titulosRetos{
+
+	text-align: center;
+	margin-top: 30px;
+
+}
+
+div#informacionReto{
+
+	width: 1520px;
+	padding: 50px;
+	height: 400px;
+	background-color: rgb(60, 114, 114);
+	margin: auto;
+	border-radius: 40px;
+	box-shadow: 5px 5px 5px rgb(185, 183, 183);
+
+}
+
+p#descripcionReto{
+
+	width: 100%;
+	height: 100%;
+	font-style: italic;
+	
+}
+
+div#informacionBasica{
+
+	width: 500px;
+	height: 400px;
+
+}
+
+div#informacionTotal{
+
+	width: 1000px;
+	height: 400px;
+
+}
+
+
+div#informacionBasica, div#informacionTotal{
+
+	display: inline-block;
+
+}
+
+table#tablaInformacion{
+
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: auto;
+	width: 700px;
+	margin-top: 50px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px gray;
+	background-color: white;
+	margin-bottom: 40px;
+	
+}
+
+
+p.centrarDatos{
+
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+
+div#divBotones{
+
+	display: flex;
+
+}
+
+a#enlaceInicio{
+
+	color: white;
+	font-size: 20px;
+	transition: 1s;
+	cursor: pointer;
+	float: right;
+	margin-right: 30px;
+}
+
+a#enlaceInicio:hover{
+
+	font-size: 24px;
+	transition: 1s;
+
+}
+
+a#pdf{
+	
+	color: white;
+	font-size: 20px;
+	transition: 1s;
+	cursor: pointer;
+	float: right;
+	margin-right: 40px;
+}
+
+a#pdf:hover{
+	font-size: 24px;
+	transition: 1s;
+}
+
+a#nombreProfesor{
+
+	float: left;
+	margin-left: 130px;
+	font-size: 20px;
+}
+
